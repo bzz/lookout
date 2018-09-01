@@ -9,6 +9,8 @@ DEPENDENCIES = \
 POSTGRESQL_VERSION = 9.6
 MIGRATIONS_PATH = store/migrations
 
+DOCKER_ORG = abezzubov
+
 # Including ci Makefile
 CI_REPOSITORY ?= https://github.com/src-d/ci.git
 CI_BRANCH ?= v1
